@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
     const char *eal_args[] = {
         "dpdk_app",
         "-l", "0",               // 指定使用的 CPU 核心
-        "--pci-whitelist", PCI_ADDR, // 允许访问目标设备
+        "--allow", PCI_ADDR, // 允许访问目标设备
         "--vfio-intr=legacy",    // VFIO 中断模式
         NULL
     };

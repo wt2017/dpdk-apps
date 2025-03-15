@@ -1,0 +1,5 @@
+# binary
+dpdk_reg_read
+
+# object
+*.o
